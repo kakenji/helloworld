@@ -1,0 +1,25 @@
+body {
+    background-color: #F50565;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* seletor de classes */
+.centraliza {
+    text-align: center;
+}
+
+.line {
+    display: inline;
+    padding: 1%;
+}
+
+nav {
+    border: solid;
+    text-align: center;
+    background-color: #F56705;
+    padding: 1%;
+}
+
+#pessoais {
+    border-style: groove;
+}
