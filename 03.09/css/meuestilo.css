@@ -1,0 +1,39 @@
+body {
+    background-color: cornflowerblue;
+}
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+footer {
+    margin-top: 3%;
+    text-align: center;
+}
+
+td:hover {
+    background: black;
+    color: white;
+}
+
+.outer {
+    border: 5px solid red;
+}
+
+.box {
+    margin: 3%;
+    /* width: calc(90% - 100px); */
+    width: 50%;
+    height: 55%;
+    color: white;
+    background-color: blueviolet;
+    transform: rotate(0.8turn);
+    padding: 1%;
+}
+
+@media (max-width: 30em){
+    body {
+        background-color: black;
+    }
+}
